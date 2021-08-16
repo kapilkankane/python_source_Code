@@ -29,7 +29,7 @@ def db_connect(configpath):
                 con = mysql.connector.connect(
                         user = username, #"ardit700_student",
                         password = password, #"ardit700_student",
-                        host = dbconfig["hostname"], #"192.168.0.138",  #"108.167.140.122",
+                        host = dbconfig["hostname"],  #"108.167.140.122",
                         database = dbconfig["database"] #"ardit700_pm1database"
                         )
                 return con
