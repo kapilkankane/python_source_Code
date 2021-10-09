@@ -1,4 +1,4 @@
 {
-"hostname" : "localhost",
-"database" : "mylearning"
+"hostname" : "192.168.0.101",
+"database" : "training"
 }
